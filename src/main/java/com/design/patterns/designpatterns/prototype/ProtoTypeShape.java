@@ -58,7 +58,7 @@ class Square implements Shape {
 }
 class ProtoTypeManager {
 
-    private HashMap<String, Shape>ht=new HashMap<>();
+    private HashMap<String, Shape> ht = new HashMap<>();
     public ProtoTypeManager() {
         ht.put("Circle",new Circle());
         ht.put("Square",new Square());
