@@ -26,7 +26,7 @@ public class AbstractFactoryTest {
 }
 
 /**
- * //抽象产品：提供了产品的接口
+ * 抽象产品：提供了产品的接口
  */
 interface Product {
     void show();
