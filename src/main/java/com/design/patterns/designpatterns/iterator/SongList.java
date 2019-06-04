@@ -19,6 +19,8 @@ public class SongList implements IList {
 
     @Override
     public void add(Object obj) {
+        if (index >= songs.length)
+            throw new IndexOutOfBoundsException("索引越界");
         songs[index++] = (Song) obj;
         size++;
     }
